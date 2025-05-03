@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: musicology-postgresql
+    environment:
+      POSTGRES_USER: danila
+      POSTGRES_PASSWORD: danila
+      POSTGRES_DB: musicology
+    ports:
+      - "5433:5432"
+    volumes:
+      - musicology:/var/lib/postgresql/data
+
+volumes:
+  musicology:

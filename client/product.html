@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/product.css" />
+    <title>Yamaha Grand Piano | Музология</title>
+</head>
+
+<body>
+    <header>
+        <img src="icons/logo.svg" alt="Музология Логотип" class="logo" />
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="news.html">Новости</a></li>
+                <li class="nav-item"><a href="catalog.html">Каталог</a></li>
+                <li class="nav-item"><a href="sell.html">Добавить товар</a></li>
+                <li class="nav-item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-main">
+        <h1 class="brand-title"></h1>
+        <section class="product-overview">
+            <div class="product-image-container">
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <div class="zoom-container">
+                            <img alt="Yamaha Grand Piano" class="product-image" />
+                            <div class="magnifier-lens"></div>                        
+                        </div>
+                    </div>
+
+                    <div id="image-modal">
+                        <button class="close">&times;</button>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-details">
+                <h2 id='pr-title' class="product-section-title"></h2>
+                <p class="product-description"></p>
+                <ul class="product-specs"></ul>
+            </div>
+        </section>
+
+        <div class="product-contact">
+            <p class="contact-text">
+                Узнайте больше или закажите инструмент, позвонив по телефону
+                <a href="tel:+78001234567">+7 (800) 123-45-67</a> или заполнив форму ниже.
+            </p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Ваше имя" class="form-input" />
+                <input type="email" name="email" placeholder="Ваш email" class="form-input" />
+                <textarea name="message" placeholder="Ваше сообщение" class="form-textarea"></textarea>
+                <button type="submit" class="form-button">Отправить</button>
+            </form>
+        </div>
+
+        <section class="product-reviews">
+            <h2 class='product-section-title'>Отзывы</h2>
+            <div id="reviews-list"></div>
+
+            <form id="review-form">
+                <h3 class='product-section-title'>Оставить отзыв</h3>
+
+                <label for="review-author">Ваше имя:</label>
+                <input type="text" id="review-author" name="review-author" class="form-input" />
+                <p id="review-author-error" class="error"></p>
+
+                <label for="review-text">Ваш отзыв:</label>
+                <textarea id="review-text" name="review-text" class="form-textarea"></textarea>
+                <p id="review-text-error" class="error"></p>
+
+                <button type="submit" class="form-button">Оставить отзыв</button>
+                <p id="review-success" class="success-message"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class='footer-content'>
+            <img src="icons/logo.svg" alt="Логотип Музология" class='footer-logo' />
+            <table class="footer-contacts">
+                <tr>
+                    <td>Москва:</td>
+                    <td><a href='tel:+79999999999'>+7 (999) 999-99-99</a></td>
+                </tr>
+                <tr>
+                    <td>Волгоград:</td>
+                    <td><a href='tel:+79999999999'>+7 (999) 999-99-99</a></td>
+                </tr>
+                <tr>
+                    <td>Самара:</td>
+                    <td><a href='tel:+79999999999'>+7 (999) 999-99-99</a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+    <script src="scripts/image-modal.js"></script>
+    <script src="scripts/zoom.js"></script>
+    <script src="scripts/ajax/product.js"></script>
+</body>
+
+</html>

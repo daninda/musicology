@@ -1,0 +1,1155 @@
+{
+  "Version": 1,
+  "Hash": "hDTxRGfqY7dksGKSHdG7l40yxmmMb8soRtDSp4zX2Ag=",
+  "Source": "server",
+  "BasePath": "_content/server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "server/wwwroot",
+      "Source": "server",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/casio.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/casio#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gx6tt84uk1",
+      "Integrity": "rBqPweUGBKra20Me9kFDZihvOABv7BbjyuxCvz0BImU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/casio.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/condenser.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/condenser#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p88rq3r580",
+      "Integrity": "h2esZ0Q+DXetNokVjHcAVDZNQiuK8IatusLDLdd31Tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/condenser.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/drumkit.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/drumkit#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y1ljnlfiko",
+      "Integrity": "qrNujZb+p7O329AL+YpZtYMxPKljClTmXiL74sUv7KY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/drumkit.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/drumpads.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/drumpads#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uspadawnzh",
+      "Integrity": "4gkwHUdGv5jSwnDTYNqQ6HRYtrL/X5wBJIEeldXvrPU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/drumpads.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/f6be6396-f398-4000-b2a8-5add29962a13#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eg036vvk2k",
+      "Integrity": "8kjIyor7ybHl3HBU1SWuiBmirsad9q8u17zk2qsQGKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/sm58.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/sm58#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nyyd9plsnn",
+      "Integrity": "P+/o85DnWNx7YakBDskEjPvZENX+ZTLj+Ukgy2sreLU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/sm58.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/stand.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/stand#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uzc5rv77wc",
+      "Integrity": "CtgOkVOjklEMrRcV07FRTrTHdT01Ia/K4TK6fECFegk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/stand.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/strat.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/strat#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ott0o816ru",
+      "Integrity": "/F4kk+B5rY11qUlbv2yJWnnqf2Il/0P11CmysM7Jk0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/strat.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/strings.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/strings#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wasxm4d8jb",
+      "Integrity": "iEP7qMIBkMMNQu4u0Nqsoxz6VImIfOlYCKVVGrZV6OE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/strings.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/synth.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/synth#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ass7bh6t6f",
+      "Integrity": "hgNSRKp7elDTOju/PI/vE+WsZyn8hCDQCLla0SU4D7Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/synth.jpg"
+    },
+    {
+      "Identity": "/home/danila/Documents/musology/server/wwwroot/images/yamaha.jpg",
+      "SourceId": "server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/danila/Documents/musology/server/wwwroot/",
+      "BasePath": "_content/server",
+      "RelativePath": "images/yamaha#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zcztlbihax",
+      "Integrity": "Q/kDl4cugM4xNMqBvSDtyq58NSDYb1jApkss7+E+iOA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/yamaha.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/casio.gx6tt84uk1.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/casio.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBqPweUGBKra20Me9kFDZihvOABv7BbjyuxCvz0BImU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gx6tt84uk1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/casio.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rBqPweUGBKra20Me9kFDZihvOABv7BbjyuxCvz0BImU="
+        }
+      ]
+    },
+    {
+      "Route": "images/casio.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/casio.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rBqPweUGBKra20Me9kFDZihvOABv7BbjyuxCvz0BImU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rBqPweUGBKra20Me9kFDZihvOABv7BbjyuxCvz0BImU="
+        }
+      ]
+    },
+    {
+      "Route": "images/condenser.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/condenser.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2esZ0Q+DXetNokVjHcAVDZNQiuK8IatusLDLdd31Tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2esZ0Q+DXetNokVjHcAVDZNQiuK8IatusLDLdd31Tc="
+        }
+      ]
+    },
+    {
+      "Route": "images/condenser.p88rq3r580.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/condenser.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h2esZ0Q+DXetNokVjHcAVDZNQiuK8IatusLDLdd31Tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p88rq3r580"
+        },
+        {
+          "Name": "label",
+          "Value": "images/condenser.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h2esZ0Q+DXetNokVjHcAVDZNQiuK8IatusLDLdd31Tc="
+        }
+      ]
+    },
+    {
+      "Route": "images/drumkit.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/drumkit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1970269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrNujZb+p7O329AL+YpZtYMxPKljClTmXiL74sUv7KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrNujZb+p7O329AL+YpZtYMxPKljClTmXiL74sUv7KY="
+        }
+      ]
+    },
+    {
+      "Route": "images/drumkit.y1ljnlfiko.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/drumkit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1970269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qrNujZb+p7O329AL+YpZtYMxPKljClTmXiL74sUv7KY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:09:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y1ljnlfiko"
+        },
+        {
+          "Name": "label",
+          "Value": "images/drumkit.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qrNujZb+p7O329AL+YpZtYMxPKljClTmXiL74sUv7KY="
+        }
+      ]
+    },
+    {
+      "Route": "images/drumpads.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/drumpads.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gkwHUdGv5jSwnDTYNqQ6HRYtrL/X5wBJIEeldXvrPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gkwHUdGv5jSwnDTYNqQ6HRYtrL/X5wBJIEeldXvrPU="
+        }
+      ]
+    },
+    {
+      "Route": "images/drumpads.uspadawnzh.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/drumpads.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4gkwHUdGv5jSwnDTYNqQ6HRYtrL/X5wBJIEeldXvrPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uspadawnzh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/drumpads.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4gkwHUdGv5jSwnDTYNqQ6HRYtrL/X5wBJIEeldXvrPU="
+        }
+      ]
+    },
+    {
+      "Route": "images/f6be6396-f398-4000-b2a8-5add29962a13.eg036vvk2k.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kjIyor7ybHl3HBU1SWuiBmirsad9q8u17zk2qsQGKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 22:32:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eg036vvk2k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f6be6396-f398-4000-b2a8-5add29962a13.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kjIyor7ybHl3HBU1SWuiBmirsad9q8u17zk2qsQGKw="
+        }
+      ]
+    },
+    {
+      "Route": "images/f6be6396-f398-4000-b2a8-5add29962a13.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176176"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8kjIyor7ybHl3HBU1SWuiBmirsad9q8u17zk2qsQGKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 22:32:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8kjIyor7ybHl3HBU1SWuiBmirsad9q8u17zk2qsQGKw="
+        }
+      ]
+    },
+    {
+      "Route": "images/sm58.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/sm58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P+/o85DnWNx7YakBDskEjPvZENX+ZTLj+Ukgy2sreLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P+/o85DnWNx7YakBDskEjPvZENX+ZTLj+Ukgy2sreLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/sm58.nyyd9plsnn.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/sm58.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "142773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P+/o85DnWNx7YakBDskEjPvZENX+ZTLj+Ukgy2sreLU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nyyd9plsnn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sm58.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P+/o85DnWNx7YakBDskEjPvZENX+ZTLj+Ukgy2sreLU="
+        }
+      ]
+    },
+    {
+      "Route": "images/stand.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/stand.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CtgOkVOjklEMrRcV07FRTrTHdT01Ia/K4TK6fECFegk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CtgOkVOjklEMrRcV07FRTrTHdT01Ia/K4TK6fECFegk="
+        }
+      ]
+    },
+    {
+      "Route": "images/stand.uzc5rv77wc.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/stand.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47785"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CtgOkVOjklEMrRcV07FRTrTHdT01Ia/K4TK6fECFegk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:11:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uzc5rv77wc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/stand.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CtgOkVOjklEMrRcV07FRTrTHdT01Ia/K4TK6fECFegk="
+        }
+      ]
+    },
+    {
+      "Route": "images/strat.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/strat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/F4kk+B5rY11qUlbv2yJWnnqf2Il/0P11CmysM7Jk0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:08:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/F4kk+B5rY11qUlbv2yJWnnqf2Il/0P11CmysM7Jk0s="
+        }
+      ]
+    },
+    {
+      "Route": "images/strat.ott0o816ru.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/strat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/F4kk+B5rY11qUlbv2yJWnnqf2Il/0P11CmysM7Jk0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:08:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ott0o816ru"
+        },
+        {
+          "Name": "label",
+          "Value": "images/strat.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/F4kk+B5rY11qUlbv2yJWnnqf2Il/0P11CmysM7Jk0s="
+        }
+      ]
+    },
+    {
+      "Route": "images/strings.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/strings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "429959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEP7qMIBkMMNQu4u0Nqsoxz6VImIfOlYCKVVGrZV6OE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEP7qMIBkMMNQu4u0Nqsoxz6VImIfOlYCKVVGrZV6OE="
+        }
+      ]
+    },
+    {
+      "Route": "images/strings.wasxm4d8jb.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/strings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "429959"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEP7qMIBkMMNQu4u0Nqsoxz6VImIfOlYCKVVGrZV6OE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:10:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wasxm4d8jb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/strings.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEP7qMIBkMMNQu4u0Nqsoxz6VImIfOlYCKVVGrZV6OE="
+        }
+      ]
+    },
+    {
+      "Route": "images/synth.ass7bh6t6f.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/synth.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgNSRKp7elDTOju/PI/vE+WsZyn8hCDQCLla0SU4D7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:12:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ass7bh6t6f"
+        },
+        {
+          "Name": "label",
+          "Value": "images/synth.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgNSRKp7elDTOju/PI/vE+WsZyn8hCDQCLla0SU4D7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/synth.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/synth.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "999627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hgNSRKp7elDTOju/PI/vE+WsZyn8hCDQCLla0SU4D7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 21:12:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hgNSRKp7elDTOju/PI/vE+WsZyn8hCDQCLla0SU4D7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/yamaha.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/yamaha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q/kDl4cugM4xNMqBvSDtyq58NSDYb1jApkss7+E+iOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 22:35:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q/kDl4cugM4xNMqBvSDtyq58NSDYb1jApkss7+E+iOA="
+        }
+      ]
+    },
+    {
+      "Route": "images/yamaha.zcztlbihax.jpg",
+      "AssetFile": "/home/danila/Documents/musology/server/wwwroot/images/yamaha.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q/kDl4cugM4xNMqBvSDtyq58NSDYb1jApkss7+E+iOA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 22:35:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zcztlbihax"
+        },
+        {
+          "Name": "label",
+          "Value": "images/yamaha.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q/kDl4cugM4xNMqBvSDtyq58NSDYb1jApkss7+E+iOA="
+        }
+      ]
+    }
+  ]
+}

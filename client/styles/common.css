@@ -1,0 +1,120 @@
+:root {
+    --primary-background: #fff;
+    --secondary-background: #333;
+    --tertiary-background: #ebeef1;
+
+    --primary-text: #222;
+    --secondary-text: #dfdfdf;
+    --accent-text: #5080ad;
+
+    --primary-border: #ebeef1;
+}
+
+html {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 64px;
+    height: 64px;
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    background-color: var(--secondary-background);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 250px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    column-gap: 32px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--secondary-text);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.1s;
+}
+
+.nav-item a:hover {
+    color: var(--accent-text);
+}
+
+
+footer {
+    background-color: var(--secondary-background);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.footer-logo {
+    width: 96px;
+    height: 96px;
+}
+
+.footer-contacts {
+    width: 320px;
+    border-collapse: collapse;
+}
+
+.footer-contacts td {
+    color: var(--secondary-text);
+    padding: 10px 20px;
+}
+
+.footer-contacts a {
+    color: var(--secondary-text);
+    transition: color 0.1s;
+    text-decoration: none;;
+}
+
+.footer-contacts a:visited {
+    color: var(--secondary-text);
+}
+
+.footer-contacts a:hover {
+    color: var(--accent-text);
+}

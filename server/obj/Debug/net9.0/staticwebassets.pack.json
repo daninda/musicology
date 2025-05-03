@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/casio.jpg",
+      "PackagePath": "staticwebassets/images/casio.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/condenser.jpg",
+      "PackagePath": "staticwebassets/images/condenser.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/drumkit.jpg",
+      "PackagePath": "staticwebassets/images/drumkit.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/drumpads.jpg",
+      "PackagePath": "staticwebassets/images/drumpads.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg",
+      "PackagePath": "staticwebassets/images/f6be6396-f398-4000-b2a8-5add29962a13.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/sm58.jpg",
+      "PackagePath": "staticwebassets/images/sm58.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/stand.jpg",
+      "PackagePath": "staticwebassets/images/stand.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/strat.jpg",
+      "PackagePath": "staticwebassets/images/strat.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/strings.jpg",
+      "PackagePath": "staticwebassets/images/strings.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/synth.jpg",
+      "PackagePath": "staticwebassets/images/synth.jpg"
+    },
+    {
+      "Id": "/home/danila/Documents/musology/server/wwwroot/images/yamaha.jpg",
+      "PackagePath": "staticwebassets/images/yamaha.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.server.props",
+      "PackagePath": "build\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.server.props",
+      "PackagePath": "buildMultiTargeting\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.server.props",
+      "PackagePath": "buildTransitive\\server.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
