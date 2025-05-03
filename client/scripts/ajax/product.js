@@ -1,4 +1,4 @@
-const url = "http://localhost:5025"
+const url = "http://92.63.101.172:5025"
 
 function getProductIdFromUrl() {
     const params = new URLSearchParams(window.location.search)

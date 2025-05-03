@@ -1,7 +1,7 @@
 const form = document.getElementById("sell-form");
 const successMessage = document.getElementById("success-message");
 
-const url = "http://localhost:5025"
+const url = "http://92.63.101.172:5025"
 
 form.addEventListener("submit", async function (e) {
     e.preventDefault();
