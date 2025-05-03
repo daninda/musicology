@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using server.DTOs;
-using server.Models;
+using server.Services;
 
 namespace server.Controllers;
 
@@ -9,41 +8,31 @@ namespace server.Controllers;
 [Route("api/reviews")]
 public class ReviewController : ControllerBase
 {
-    private readonly AppDbContext _context;
+    private readonly ReviewService _reviewService;
 
-    public ReviewController(AppDbContext context)
+    public ReviewController(ReviewService reviewService)
     {
-        _context = context;
+        _reviewService = reviewService;
     }
 
     [HttpGet("{productId}")]
     public async Task<IActionResult> GetByProduct(int productId)
     {
-        var reviews = await _context.Reviews
-            .Where(r => r.ProductId == productId)
-            .ToListAsync();
-
+        var reviews = await _reviewService.GetByProductAsync(productId);
         return Ok(reviews);
     }
 
     [HttpPost]
     public async Task<IActionResult> Add([FromBody] AddReviewDto dto)
     {
-        if (!ModelState.IsValid) return BadRequest(ModelState);
+        if (!ModelState.IsValid)
+            return BadRequest(ModelState);
 
-        var productExists = await _context.Products.AnyAsync(p => p.Id == dto.ProductId);
-        if (!productExists) return NotFound("Товар не найден");
+        var result = await _reviewService.AddAsync(dto);
 
-        var review = new Review
-        {
-            AuthorName = dto.AuthorName,
-            Text = dto.Text,
-            ProductId = dto.ProductId
-        };
+        if (result == null)
+            return NotFound("Товар не найден");
 
-        _context.Reviews.Add(review);
-        await _context.SaveChangesAsync();
-
-        return Ok(review);
+        return Ok(result);
     }
 }
