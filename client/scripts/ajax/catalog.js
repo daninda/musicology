@@ -3,7 +3,7 @@ const filterForm = document.getElementById("filter-form")
 const prevButton = document.getElementById("prev-page")
 const nextButton = document.getElementById("next-page")
 
-const url = "http://localhost:5025"
+const url = "http://92.63.101.172:5025"
 
 const categoryMap = [
     "Guitars",
